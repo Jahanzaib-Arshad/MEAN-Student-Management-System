@@ -1,0 +1,27 @@
+<div>
+    <h1 class="text-center"><b>Management System</b></h1>
+    <h2 class="text-center"><b>Student</b></h2>
+
+    <form class="form-horizontal userFrm">
+        <div class="form-group row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <input ng-model="studentLog.email" type="text" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <input ng-model="studentLog.password" type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+        </div>
+
+        <div class="form-group text-center">
+            <div class="col-lg-12">
+                <a class="btn btn-default btn-sm" href="#login">cancel</a>
+                <button type="submit" class="btn btn-primary btn-lg" ng-click="studentLogin(studentLog)">login</button>
+            </div>
+        </div>
+    </form>
+
+</div>
