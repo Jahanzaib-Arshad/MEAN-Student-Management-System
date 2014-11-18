@@ -44,4 +44,5 @@ Next steps
 Jahanzaib-Arshad...
 ==============================
 
-    
+  
+[ ![Codeship Status for Jahanzaib-Arshad/MEAN-Student-Management-System](https://codeship.com/projects/11dce6b0-512e-0132-786d-32ca8cb21866/status)](https://codeship.com/projects/48253)  
