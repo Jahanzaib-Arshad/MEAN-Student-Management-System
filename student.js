@@ -1,8 +1,9 @@
 /**
  * Created by Jahanzaib on 11/6/2014.
  */
-var mongoose = require('mongoose');mongoose.connect('mongodb://jazzyoo7:12345@ds053080.mongolab.com:53080/managmentapp');//
-mongoose.connect('mongodb://localhost:test');
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://jazzyoo7:12345@ds053080.mongolab.com:53080/managmentapp');
+//mongoose.connect('mongodb://localhost:test');
 
 var Schema = mongoose.Schema;
 var db = mongoose.connection;
