@@ -38,8 +38,8 @@ db.on('disconnected',function(){
                 password:String,
                 class:Number,
                 rating:Number,
-                studentTask:{task:String,comments:[{default:[]}],taskDone:Boolean,taskRating:Number},
-                subjects:[{default:[]}]
+                studentTask:{task:String,comments:[{type:Array,default:[]}],taskDone:Boolean,taskRating:Number},
+                subjects:[{type:Array,default:[]}]
             }
         );
         this.StudentModel = mongoose.model('StudentModel',this.stud );
