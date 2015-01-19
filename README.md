@@ -39,10 +39,15 @@ Next steps
 ==============================
 *convert this web-app to hybird mobile-app using cordova and ionic(very soon).
 
+Demo...
+==============================
+*check the demo by click on link..
+http://student-management.herokuapp.com
 
 
 Jahanzaib-Arshad...
 ==============================
+Happy coding..
 
   
 [ ![Codeship Status for Jahanzaib-Arshad/MEAN-Student-Management-System](https://codeship.com/projects/11dce6b0-512e-0132-786d-32ca8cb21866/status)](https://codeship.com/projects/48253)  
